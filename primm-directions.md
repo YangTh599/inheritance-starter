@@ -52,6 +52,7 @@ my_ai.learn()
 Copy and paste the previous code snippet into in a file named `ai-primm.py`.
 
 Run the script.  Did your predictions match the output?  Why or why not?
+    My prediction matched the output because the code was simply displayed.
 
 ---
 
@@ -60,13 +61,30 @@ Run the script.  Did your predictions match the output?  Why or why not?
 Answer these questions about the code snippet:
 
 1. What is the relationship between the Human and AI classes?
+    Human is the parent class to the AI class
+
 2. How does the `__init__()` method in the AI class use the `super()` function?
+    AI inherits the name, age, and occupation attributes from the Human superclass. 
+    AI calls the __init__() method from the Human class by calling the super() method.
+
 3. What is the purpose of the `think()` and `communicate()` methods in both the Human and AI classes?
+    the purpose to the think() and communicate() methods in both classes, is to give each class a different way to use that method call
+
 4. How does the output of the `think()` and `communicate()` methods differ between the Human and AI instances?
+    the outputs of the Human Class think() and communicate() methods only include a human in its String.
+    For the AI subclass, the think() and communicate() methods uses the inclusion of AI in its String
+
 5. What is the purpose of the `learn()` method in the AI class?
+    The purpose of the learn() method in the AI class
 6. Which attributes will the AI class get/grab from the Human class?
+    The AI can get the attributes: name, age, and occupation
+    from the Human class
+
 7. Which attribute belongs specifically to the AI class?
+    The intelligence_level belongs specifically to the AI class.
+
 8. How many attributes **total** will an instance of the AI class have?
+    The AI class has a total of 4 attributes for every instance created for the AI class.
 
 ---
 
